@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(233, 47%, 7%);
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+.card {
+  background-color: hsl(244, 38%, 16%);
+  color: white;
+  display: flex;
+  width: 80vw;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  gap: 1rem;
+}
+.card__text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 3rem 1.2rem;
+  /* gap: 1rem; */
+}
+.card__stats {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
